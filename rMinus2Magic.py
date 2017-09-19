@@ -7,6 +7,9 @@ import xml.etree.cElementTree as ET
 from collections import Counter
 from copy import deepcopy
 #from readchar import readchar
+import cv2
+from iros_ip import eyes
+from pygame import mixer
 
 class Dxl(object):
     def __init__(self,port_id=0, scan_limit=25, lock=-1,debug=False):
@@ -273,6 +276,8 @@ w5 = MotionSet(tree.parsexml("36 F_M_L"),speed=2.7,offsets=[darwin])
 w6 = MotionSet(tree.parsexml("37 "),speed=2.1,offsets=[darwin])
 walk_init = Action([w1,w2])
 walk_motion = Action([w3,w4,w5,w6])
+
+cap = cv2.VideoCapture(1)
 #------------------------------------------------------------------------------------------------------------------
 
 if __name__ == '__main__':
@@ -286,7 +291,10 @@ if __name__ == '__main__':
     while True:
         raw_input("Roll?")
         rollDice()
-    # raw_input("Head Initialize?")
-    # head = Head(dxl)
-    # head.tilt_up(30)
-    # head.tilt_down(30)
+        #num = eyes(cap,y=25,u=164,v=105)
+        #mixer.music.load('audio_files/Die'+str(num)+'.mp3')
+        #mixer.music.play()
+        raw_input("Head Initialize?")
+        head = Head(dxl)
+        #head.tilt_up(30)
+        head.tilt_down(40)

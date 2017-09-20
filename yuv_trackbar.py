@@ -12,7 +12,7 @@ cv2.namedWindow('image')
 cv2.createTrackbar('Y','image',0,255,nothing)
 cv2.createTrackbar('U','image',0,255,nothing)
 cv2.createTrackbar('V','image',0,255,nothing)
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 while True:
     y = cv2.getTrackbarPos('Y','image')
     u = cv2.getTrackbarPos('U','image')
@@ -26,6 +26,8 @@ while True:
     #cv2.imshow("g1",img_yuv)
     #img_yuv[:,:,2] = cv2.equalizeHist(img_yuv[:,:,2])
     #cv2.imshow("g2",img_yuv
+    #blur = cv2.GaussianBlur(img_yuv,(7,7),1)
+    #img_yuv = cv2.medianBlur(blur ,5)    
     mask = cv2.inRange(img_yuv, (np.array([y-45,u-30,v-30])), (np.array([y+45,u+30,v+30])))
     cv2.imshow("Masking",mask)
     erode = cv2.erode(mask,None,iterations = 1)

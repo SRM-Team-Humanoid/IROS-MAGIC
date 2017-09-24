@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import pydynamixel.dynamixel
 
 def eyes(cap, y = 75,u = 179,v = 147):
 	_,img = cap.read()

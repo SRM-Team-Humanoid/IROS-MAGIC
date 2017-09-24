@@ -30,7 +30,7 @@ while True:
  	if cv2.waitKey(25)&0xff==27:
 		break
 
-	contours,hierarchy = cv2.findContours(fill,cv2.RETR_CCOMP,cv2.CHAIN_APPROX_SIMPLE)
+	_,contours,hierarchy = cv2.findContours(fill,cv2.RETR_CCOMP,cv2.CHAIN_APPROX_SIMPLE)
 	#abc = cv2.drawContours(img, contours, -1, (0,0,255), 1)
 	#cv2.imshow("",abc)
 	print len(contours)

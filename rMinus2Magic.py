@@ -6,10 +6,38 @@ from pprint import pprint
 import xml.etree.cElementTree as ET
 from collections import Counter
 from copy import deepcopy
-#from readchar import readchar
-import cv2
-from iros_ip import eyes
 from pygame import mixer
+
+mixer.init()
+
+def eyes(y = 75,u = 179,v = 147):
+	time.sleep(0.5)
+	ret,img = cap.read()
+	print img
+	img_yuv = cv2.cvtColor(img,cv2.COLOR_BGR2YUV)
+
+	blur = cv2.GaussianBlur(img_yuv,(7,7),1.3)
+	median = cv2.medianBlur(blur ,5)
+
+	die = cv2.inRange(blur, (np.array([y-45,u-30,v-30])), (np.array([y+45,u+30,v+30])))
+	cv2.imshow("The Masked Image",die)
+	im_floodfill = die.copy()
+	h, w = die.shape[:2]
+	mask = np.zeros((h+2, w+2), np.uint8)
+	cv2.floodFill(im_floodfill, mask, (0,0), 255)
+
+
+	fill = cv2.bitwise_not(im_floodfill)
+
+
+	cv2.imshow("Masked filled",fill)
+	if cv2.waitKey(25)&0xff==27:
+		return
+
+	contours,hierarchy = cv2.findContours(fill,cv2.RETR_CCOMP,cv2.CHAIN_APPROX_SIMPLE)
+	#abc = cv2.drawContours(img, contours, -1, (0,0,255), 1)
+	#cv2.imshow("",abc)
+	return len(contours)
 
 class Dxl(object):
     def __init__(self,port_id=0, scan_limit=25, lock=-1,debug=False):
@@ -276,8 +304,7 @@ w5 = MotionSet(tree.parsexml("36 F_M_L"),speed=2.7,offsets=[darwin])
 w6 = MotionSet(tree.parsexml("37 "),speed=2.1,offsets=[darwin])
 walk_init = Action([w1,w2])
 walk_motion = Action([w3,w4,w5,w6])
-
-cap = cv2.VideoCapture(1)
+done = []
 #------------------------------------------------------------------------------------------------------------------
 
 if __name__ == '__main__':
@@ -287,14 +314,26 @@ if __name__ == '__main__':
     balance.execute()
     raw_input()
     rollpose.execute()
+    head = Head(dxl)
     print state
-    while True:
+    while len(done) < 6:
+        time.sleep(1)
+        mixer.music.load('audio_files/Pass.mp3')
+        mixer.music.play()
         raw_input("Roll?")
         rollDice()
-        #num = eyes(cap,y=25,u=164,v=105)
-        #mixer.music.load('audio_files/Die'+str(num)+'.mp3')
-        #mixer.music.play()
-        raw_input("Head Initialize?")
-        head = Head(dxl)
-        #head.tilt_up(30)
+        time.sleep(1)
         head.tilt_down(40)
+        time.sleep(2)
+        with open('values.txt', 'r') as file:
+            num = file.readline().strip()[0]
+        if int(num) not in done:
+            done.append(int(num))
+            print num
+            mixer.music.load('audio_files/Die'+num+'.mp3')
+            mixer.music.play()
+            time.sleep(2)
+            mixer.music.load('audio_files/Card'+num+'.mp3')
+            mixer.music.play()
+            time.sleep(3)
+        head.tilt_up(40)

@@ -2,14 +2,15 @@ import cv2
 import numpy as np
 
 
-cap = cv2.VideoCapture(0)
-
+cap = cv2.VideoCapture(1)
+if cap.isOpened() == False:
+    print ("VideoCapture failed")
 
 y,u,v = 47,178,119
 
 while True:
-
-	_,img = cap.read()
+	ret,img = cap.read()
+	
 	img_yuv = cv2.cvtColor(img,cv2.COLOR_BGR2YUV)
 	#kernel = np.ones((7,7),np.uint8)
 	img_yuv = cv2.GaussianBlur(img_yuv,(7,7),2)

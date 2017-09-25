@@ -1,8 +1,17 @@
 import cv2
 import numpy as np
+<<<<<<< HEAD
+=======
+import time
+>>>>>>> f0ad017907987b93d440547d03e7a2c427b4cd2c
 
-def eyes(cap, y = 75,u = 179,v = 147):
-	_,img = cap.read()
+
+
+def eyes(y = 75,u = 179,v = 147):
+	cap = cv2.VideoCapture(1)
+	time.sleep(0.5)
+	ret,img = cap.read()
+	print img
 	img_yuv = cv2.cvtColor(img,cv2.COLOR_BGR2YUV)
 
 	blur = cv2.GaussianBlur(img_yuv,(7,7),1.3)
@@ -14,10 +23,10 @@ def eyes(cap, y = 75,u = 179,v = 147):
 	h, w = die.shape[:2]
 	mask = np.zeros((h+2, w+2), np.uint8)
 	cv2.floodFill(im_floodfill, mask, (0,0), 255)
- 
+
 
 	fill = cv2.bitwise_not(im_floodfill)
-	
+
 
 	cv2.imshow("Masked filled",fill)
 	if cv2.waitKey(25)&0xff==27:

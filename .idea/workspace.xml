@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5eef998-5849-4ec8-b75b-8bc75a0d7bcc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/audio_files/testvid.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iros_final.py" afterPath="$PROJECT_DIR$/iros_final.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iros_ip.py" afterPath="$PROJECT_DIR$/iros_ip.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calib.txt" afterPath="$PROJECT_DIR$/calib.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_audio.py" afterPath="$PROJECT_DIR$/create_audio.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rMinus2Magic.py" afterPath="$PROJECT_DIR$/rMinus2Magic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yuv_trackbar.py" afterPath="$PROJECT_DIR$/yuv_trackbar.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/x.txt" afterPath="$PROJECT_DIR$/x.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,10 +20,12 @@
       <file leaf-file-name="rMinus2Magic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rMinus2Magic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4830">
-              <caret line="330" column="33" lean-forward="false" selection-start-line="330" selection-start-column="33" selection-end-line="330" selection-end-column="33" />
+            <state relative-caret-position="4500">
+              <caret line="308" column="33" lean-forward="false" selection-start-line="308" selection-start-column="33" selection-end-line="308" selection-end-column="33" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+                <marker date="1506428596927" expanded="true" signature="7098:7344" ph="..." />
+                <marker date="1506428596927" expanded="true" signature="9596:9598" ph="..." />
               </folding>
             </state>
           </provider>
@@ -34,7 +35,20 @@
         <entry file="file://$PROJECT_DIR$/iros_ip.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1506372289101" expanded="true" signature="810:887" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yuv_trackbar.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yuv_trackbar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -42,13 +56,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yuv_trackbar.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yuv_trackbar.py">
+      <file leaf-file-name="rMinus2MagicAdv.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rMinus2MagicAdv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="352">
+              <caret line="319" column="25" lean-forward="true" selection-start-line="319" selection-start-column="25" selection-end-line="319" selection-end-column="25" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +71,7 @@
       <file leaf-file-name="rMinus2Shadow.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/catkin_ws/src/shadow/nodes/rMinus2Shadow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="900">
               <caret line="70" column="44" lean-forward="false" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
               <folding />
             </state>
@@ -67,10 +81,11 @@
       <file leaf-file-name="iros_final.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iros_final.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="525">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+                <marker date="1506372289101" expanded="true" signature="1443:1465" ph="'''...'''" />
               </folding>
             </state>
           </provider>
@@ -103,13 +118,14 @@
         <option value="$PROJECT_DIR$/audio_files/testvid.py" />
         <option value="$PROJECT_DIR$/iros_ip.py" />
         <option value="$PROJECT_DIR$/rMinus2Magic.py" />
-        <option value="$PROJECT_DIR$/yuv_trackbar.py" />
         <option value="$USER_HOME$/catkin_ws/src/shadow/nodes/rMinus2Shadow.py" />
         <option value="$PROJECT_DIR$/iros_final.py" />
+        <option value="$PROJECT_DIR$/yuv_trackbar.py" />
+        <option value="$PROJECT_DIR$/rMinus2MagicAdv.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
     <option name="width" value="1366" />
     <option name="height" value="741" />
@@ -129,8 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,10 +161,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/catkin_ws/src/shadow/nodes/rMinus2Shadow.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -263,8 +279,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2137628" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -296,10 +311,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/rMinus2Magic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4830">
-          <caret line="330" column="33" lean-forward="false" selection-start-line="330" selection-start-column="33" selection-end-line="330" selection-end-column="33" />
+        <state relative-caret-position="4440">
+          <caret line="304" column="33" lean-forward="false" selection-start-line="304" selection-start-column="33" selection-end-line="304" selection-end-column="33" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+            <marker date="1506428596927" expanded="true" signature="7098:7344" ph="..." />
+            <marker date="1506428596927" expanded="true" signature="9596:9598" ph="..." />
           </folding>
         </state>
       </provider>
@@ -310,6 +327,111 @@
           <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+            <marker date="1506372289101" expanded="true" signature="810:887" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/catkin_ws/src/shadow/nodes/rMinus2Shadow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="70" column="44" lean-forward="false" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iros_final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1506372289101" expanded="true" signature="1443:1465" ph="'''...'''" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yuv_trackbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rMinus2Magic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4830">
+          <caret line="330" column="33" lean-forward="false" selection-start-line="330" selection-start-column="33" selection-end-line="330" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1506428596927" expanded="true" signature="7098:7344" ph="..." />
+            <marker date="1506428596927" expanded="true" signature="9596:9598" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iros_ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1506372289101" expanded="true" signature="810:887" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/catkin_ws/src/shadow/nodes/rMinus2Shadow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="70" column="44" lean-forward="false" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iros_final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1506372289101" expanded="true" signature="1443:1465" ph="'''...'''" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yuv_trackbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rMinus2Magic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4830">
+          <caret line="330" column="33" lean-forward="false" selection-start-line="330" selection-start-column="33" selection-end-line="330" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1506428596927" expanded="true" signature="7098:7344" ph="..." />
+            <marker date="1506428596927" expanded="true" signature="9596:9598" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iros_ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1506372289101" expanded="true" signature="810:887" ph="..." />
           </folding>
         </state>
       </provider>
@@ -330,6 +452,7 @@
           <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="49" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+            <marker date="1506372289101" expanded="true" signature="1443:1465" ph="'''...'''" />
           </folding>
         </state>
       </provider>
@@ -348,6 +471,8 @@
           <caret line="330" column="33" lean-forward="false" selection-start-line="330" selection-start-column="33" selection-end-line="330" selection-end-column="33" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+            <marker date="1506428596927" expanded="true" signature="7098:7344" ph="..." />
+            <marker date="1506428596927" expanded="true" signature="9596:9598" ph="..." />
           </folding>
         </state>
       </provider>
@@ -358,6 +483,7 @@
           <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+            <marker date="1506372289101" expanded="true" signature="810:887" ph="..." />
           </folding>
         </state>
       </provider>
@@ -368,6 +494,7 @@
           <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="49" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+            <marker date="1506372289101" expanded="true" signature="1443:1465" ph="'''...'''" />
           </folding>
         </state>
       </provider>
@@ -386,17 +513,19 @@
     <entry file="file://$PROJECT_DIR$/audio_files/testvid.py" />
     <entry file="file://$PROJECT_DIR$/rMinus2Magic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4830">
-          <caret line="330" column="33" lean-forward="false" selection-start-line="330" selection-start-column="33" selection-end-line="330" selection-end-column="33" />
+        <state relative-caret-position="4500">
+          <caret line="308" column="33" lean-forward="false" selection-start-line="308" selection-start-column="33" selection-end-line="308" selection-end-column="33" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+            <marker date="1506428596927" expanded="true" signature="7098:7344" ph="..." />
+            <marker date="1506428596927" expanded="true" signature="9596:9598" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/catkin_ws/src/shadow/nodes/rMinus2Shadow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="900">
           <caret line="70" column="44" lean-forward="false" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
           <folding />
         </state>
@@ -405,29 +534,41 @@
     <entry file="file://$PROJECT_DIR$/iros_ip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+            <marker date="1506372289101" expanded="true" signature="810:887" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iros_final.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state relative-caret-position="525">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+            <marker date="1506372289101" expanded="true" signature="1443:1465" ph="'''...'''" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yuv_trackbar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="472">
+          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rMinus2MagicAdv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="319" column="25" lean-forward="true" selection-start-line="319" selection-start-column="25" selection-end-line="319" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

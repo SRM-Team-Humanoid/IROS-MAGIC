@@ -61,7 +61,7 @@ while True:
 	cv2.floodFill(im_floodfill, mask, (0,0), 255);
 	fill = cv2.bitwise_not(im_floodfill)
 	_,contours,hierarchy = cv2.findContours(fill,cv2.RETR_CCOMP,cv2.CHAIN_APPROX_SIMPLE)
-	count = min(len(contours),5)
+	count = min(len(contours),6)
 	counter(count)
 
 	cv2.imshow("Masked filled",fill)

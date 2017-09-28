@@ -333,6 +333,7 @@ if __name__ == '__main__':
 			mixer.music.load('audio_files/seen.mp3')
 			mixer.music.play()
 			time.sleep(2)
+		raw_input("Lift?")
 		head.tilt_up(50)
 	balance.execute()
 	time.sleep(2)
